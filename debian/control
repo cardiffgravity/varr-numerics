@@ -1,0 +1,26 @@
+Source: varr-numerics
+Section: lscsoft
+Priority: optional
+Maintainer: Duncan Macleod <duncan.macleod@ligo.org>
+Build-Depends:
+  debhelper (>= 9),
+  cmake,
+  pkg-config,
+  libgsl-dev
+Standards-Version: 4.1.1
+
+Package: varr-numerics
+Architecture: any
+Depends:
+  ${shlibs:Depends},
+  ${misc:Depends}
+Description: Experimental variable resolution primitive numerics
+
+Package: varr-numerics-dev
+Architecture: any
+Depends:
+  ${shlibs:Depends},
+  ${misc:Depends},
+  libgsl-dev,
+  varr-numerics (= ${binary:Version})
+Description: Experimental variable resolution primitive numerics -- development package

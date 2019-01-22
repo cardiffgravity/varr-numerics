@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: varr-numerics
+Description: Experimental variable resolution primitive numerics.
+Version: 0.1.0
+Requires: gsl
+Libs: -L${libdir} -lvarr
+Cflags: -I${includedir}

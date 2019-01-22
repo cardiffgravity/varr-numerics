@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: varr-numerics
+Upstream-Contact: Duncan Macleod <duncan.macleod@ligo.org>
+
+Files: *
+Copyright: 2019, Kieran Phillips <kieran.phillips@ligo.org>
+License: GPL-3
+
+Files: debian/*
+Copyright: 2019, Duncan Macleod <duncan.macleod@ligo.org>
+License: GPL-3
+
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in file "/usr/share/common-licenses/GPL-3".
